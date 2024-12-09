@@ -1,0 +1,44 @@
+# Node.js
+/node_modules/
+/backend/node_modules/
+/frontend/node_modules/
+
+# Python virtual environment
+/venv/
+
+# Python bytecode files
+*.pyc
+*.pyo
+
+# dotenv files
+*.env
+
+# Logs
+*.log
+
+# ML model files (add your model file extensions here)
+*.h5
+*.pkl
+*.pkl.gz
+*.zip
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# VS Code workspace settings
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Ignore ML models directory or specific files
+/ml/models/*.pkl
+
+# Ignore Python's virtual environment files and folders
+/ml/venv/
+
+# Ignore specific machine learning data
+/ml/data/dataset.csv
