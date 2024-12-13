@@ -10,3 +10,4 @@ router.post("/", authenticate, createCampaign);
 router.get("/", getCampaigns);
 
 export default router;
+ 
