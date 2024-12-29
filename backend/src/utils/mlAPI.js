@@ -11,3 +11,4 @@ export const getMLPrediction = async (data) => {
     throw new Error("Failed to fetch ML prediction");
   }
 }; 
+ 
