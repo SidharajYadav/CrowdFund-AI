@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
-
+ 
 def preprocess_data(file_path):
     # Load the dataset
     df = pd.read_csv(file_path, low_memory=False)
