@@ -2,7 +2,7 @@
 # from sklearn.model_selection import train_test_split
 # from sklearn.metrics import accuracy_score
 # import pickle
-
+ 
 # def train_model(df):
 #     # Features and target
 #     X = df[['goal', 'duration', 'category', 'description_length']]
