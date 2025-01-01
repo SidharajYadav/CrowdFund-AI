@@ -40,4 +40,4 @@ def preprocess_data(file_path):
     df = df[['goal', 'pledged', 'state', 'duration', 'category', 'description_length']]
 
     # Return the cleaned dataset
-    return df
+    return df 
