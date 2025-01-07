@@ -24,7 +24,7 @@
  
 
 from flask import Flask, request, jsonify
-from joblib import load
+from joblib import load 
 import numpy as np
 
 app = Flask(__name__)
