@@ -4,7 +4,7 @@
 # import pickle
  
 # def train_model(df):
-#     # Features and target
+#     # Features and target 
 #     X = df[['goal', 'duration', 'category', 'description_length']]
 #     y = df['state']
 
