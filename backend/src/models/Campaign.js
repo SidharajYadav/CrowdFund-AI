@@ -15,4 +15,4 @@ const campaignSchema = new mongoose.Schema(
   { timestamps: true }
 );
  
-export default mongoose.model("Campaign", campaignSchema);
+export default mongoose.model("Campaign", campaignSchema); 
