@@ -14,7 +14,7 @@ export const getCampaigns = async (req, res) => {
   try {
     const campaigns = await Campaign.find();
     res.status(200).json(campaigns);
-  } catch (err) {
+  } catch (err) { 
     res.status(500).json({ error: "Failed to fetch campaigns" });
   }
 };
