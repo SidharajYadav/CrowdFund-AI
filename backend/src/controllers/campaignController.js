@@ -6,7 +6,7 @@ export const createCampaign = async (req, res) => {
     await campaign.save();
     res.status(201).json(campaign);
   } catch (err) {
-    res.status(500).json({ error: "Failed to create campaign" });
+    res.status(500).json({ error: "Failed to create campaign" }); 
   }
 };
 
