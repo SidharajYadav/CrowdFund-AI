@@ -10,6 +10,6 @@ export const getMLPrediction = async (data) => {
     console.error("Error calling ML API:", err.message);
     throw new Error("Failed to fetch ML prediction");
   }
-}; 
+};  
  
  
