@@ -15,7 +15,7 @@ export const register = async (req, res) => {
     res.status(500).json({ error: "Registration failed" });
   } 
 };  
-
+ 
 export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
