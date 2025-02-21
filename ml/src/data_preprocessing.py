@@ -7,7 +7,7 @@ def preprocess_data(file_path):
 
     # Keep relevant columns based on your dataset
     relevant_columns = [
-        'goal', 'pledged', 'state', 'deadline', 'created_at', 'launched_at', 'category', 'blurb'
+        'goal', 'pledged', 'state', 'deadline', 'created_at', 'launched_at', 'category', 'blurb' 
     ]
     df = df[relevant_columns] 
 
