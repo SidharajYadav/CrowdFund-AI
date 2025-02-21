@@ -9,7 +9,7 @@ def preprocess_data(file_path):
     relevant_columns = [
         'goal', 'pledged', 'state', 'deadline', 'created_at', 'launched_at', 'category', 'blurb'
     ]
-    df = df[relevant_columns]
+    df = df[relevant_columns] 
 
     # Drop rows with missing values in relevant columns
     df = df.dropna(subset=['goal', 'pledged', 'state', 'deadline', 'created_at', 'launched_at'])
