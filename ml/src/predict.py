@@ -8,7 +8,7 @@ def predict(input_data):
     # Predict
     prediction = model.predict(input_data)
     return prediction
- 
+  
  
  
  
