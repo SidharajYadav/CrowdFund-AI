@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder
   
 def preprocess_data(file_path):
     # Load the dataset
-    df = pd.read_csv(file_path, low_memory=False)
+    df = pd.read_csv(file_path, low_memory=False) 
 
     # Keep relevant columns based on your dataset
     relevant_columns = [
