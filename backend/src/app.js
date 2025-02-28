@@ -5,7 +5,7 @@ import authRoutes from "./routes/authRoutes.js";
 import campaignRoutes from "./routes/campaignRoutes.js"; 
 import { errorHandler } from "./middleware/errorHandler.js"; 
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config(); 
 
 const app = express();
  
