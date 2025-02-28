@@ -3,7 +3,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import authRoutes from "./routes/authRoutes.js";
 import campaignRoutes from "./routes/campaignRoutes.js"; 
-import { errorHandler } from "./middleware/errorHandler.js";
+import { errorHandler } from "./middleware/errorHandler.js"; 
 import dotenv from "dotenv";
 dotenv.config();
 
