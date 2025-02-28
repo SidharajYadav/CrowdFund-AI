@@ -8,7 +8,7 @@ import campaignRoutes from "./routes/campaignRoutes.js";
 import app from "./app.js";
   
 dotenv.config();
-const app = express();
+const app = express(); 
  
 // Middleware
 app.use(cors());
