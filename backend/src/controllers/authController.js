@@ -14,7 +14,7 @@ export const register = async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: "Registration failed" });
   } 
-};  
+};   
  
 export const login = async (req, res) => {
   try {
