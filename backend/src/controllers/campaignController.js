@@ -9,7 +9,7 @@ export const createCampaign = async (req, res) => {
     res.status(500).json({ error: "Failed to create campaign" }); 
   }
 }; 
-   
+    
 export const getCampaigns = async (req, res) => {
   try {
     const campaigns = await Campaign.find();
