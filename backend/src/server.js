@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 import { connectDB } from "./utils/dbConnect.js"; 
 import authRoutes from "./routes/authRoutes.js";
 import campaignRoutes from "./routes/campaignRoutes.js";
-import app from "./app.js";
+import app from "./app.js"; 
   
 dotenv.config(); 
 const app = express(); 
