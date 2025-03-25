@@ -8,7 +8,7 @@ export const createCampaign = async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: "Failed to create campaign" }); 
   }
-}; 
+};  
     
 export const getCampaigns = async (req, res) => {
   try {
