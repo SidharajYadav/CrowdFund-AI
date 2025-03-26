@@ -4,7 +4,7 @@ from joblib import load
 import numpy as np
 
 app = Flask(__name__)
-
+ 
 # Load your trained model
 model = load("models/campaign_success_model.pkl")
 
