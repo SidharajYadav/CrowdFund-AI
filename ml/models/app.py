@@ -8,7 +8,7 @@
 #     model = pickle.load(file)
 
 # app = Flask(__name__)
-
+ 
 # @app.route("/predict", methods=["POST"])
 # def predict():
 #     data = request.get_json()  # Expect JSON payload with feature values
