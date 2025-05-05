@@ -2,7 +2,7 @@ import Campaign from "../models/Campaign.js";
 
 export const createCampaign = async (req, res) => {
   try {
-    const campaign = new Campaign(req.body); 
+    const campaign = new Campaign(req.body);  
     await campaign.save();
     res.status(201).json(campaign);
   } catch (err) {
