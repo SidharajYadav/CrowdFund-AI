@@ -96,3 +96,4 @@ if __name__ == "__main__":
     df = pd.read_csv('D:/Devops/CrowdFundAI/ml/data/kickstarter_data_full.csv')
     train_model(df)
 
+ 
