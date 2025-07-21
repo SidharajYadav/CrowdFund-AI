@@ -6,7 +6,7 @@
 # model_path = "models/campaign_success_model.pkl"
 # with open(model_path, "rb") as file:
 #     model = pickle.load(file)
-
+ 
 # app = Flask(__name__)
  
 # @app.route("/predict", methods=["POST"])
