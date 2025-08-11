@@ -12,5 +12,5 @@ print("Data preprocessing complete!")
 
 # Train the model
 model = train_model(df)
-print("Model training complete!")
+print("Model training complete!") 
  
