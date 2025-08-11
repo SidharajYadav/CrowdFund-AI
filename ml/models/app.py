@@ -2,7 +2,7 @@
 # import pickle
 # import pandas as pd
 
-# # Load the trained model
+# # Load the trained model 
 # model_path = "models/campaign_success_model.pkl"
 # with open(model_path, "rb") as file:
 #     model = pickle.load(file)
