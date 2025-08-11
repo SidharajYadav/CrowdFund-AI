@@ -8,7 +8,7 @@ model = train_model(df_cleaned)
 
 # Preprocess the data
 df = preprocess_data(file_path)
-print("Data preprocessing complete!") 
+print("Data preprocessing complete!")  
 
 # Train the model
 model = train_model(df)
